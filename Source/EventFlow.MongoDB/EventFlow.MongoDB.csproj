@@ -26,7 +26,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EventFlow" Version="0.49.3031" />
+    <PackageReference Include="EventFlow" Version="0.64.3598" />
     <PackageReference Include="MongoDB.Driver" Version="2.4.4" />
   </ItemGroup>
 
