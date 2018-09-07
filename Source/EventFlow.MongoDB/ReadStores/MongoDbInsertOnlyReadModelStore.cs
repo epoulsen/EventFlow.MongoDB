@@ -85,7 +85,7 @@ namespace EventFlow.MongoDB.ReadStores
                 await _transientFaultHandler.TryAsync(
                         c => UpdateReadModelAsync(readModelDescription, readModelUpdate, readModelContextFactory,
                             updateReadModel, c),
-                        Label.Named("elasticsearch-read-model-update"),
+                        Label.Named("mongodb-read-model-update"),
                         cancellationToken)
                     .ConfigureAwait(false);
             }
